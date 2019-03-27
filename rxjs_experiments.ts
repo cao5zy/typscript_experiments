@@ -15,3 +15,8 @@ function observable_run_unlimitted() {
 }
 
 observable_run_unlimitted()
+
+/* output: 
+git it
+get it twice
+*/
