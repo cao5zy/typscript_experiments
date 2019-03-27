@@ -1,0 +1,25 @@
+{
+  "name": "typscript_experiments",
+  "version": "1.0.0",
+  "description": "typescript experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cao5zy/typscript_experiments.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "zongying_cao@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cao5zy/typscript_experiments/issues"
+  },
+  "homepage": "https://github.com/cao5zy/typscript_experiments#readme",
+  "dependencies": {
+    "rxjs": "^5.5.0"
+  }
+}
