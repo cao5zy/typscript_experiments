@@ -1,7 +1,17 @@
 import { Observable } from 'rxjs/Observable';
 
-function main() {
-  console.log('hello from main');
+function observable_run_unlimitted() {
+  const obs = new Observable(observer => {
+    setTimeout(() => {
+      observer.next();
+      observer.complete();
+    }, 3000);
+  });
+
+  obs.subscribe(res => console.log('get it'));
+  setTimeout(() => {
+    obs.subscribe(res => console.log('get it twice'));
+  }, 6000);
 }
 
-main();
+observable_run_unlimitted()
