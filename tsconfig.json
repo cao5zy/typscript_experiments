@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+	"module": "commonjs",
+	"noImplicitAny": true,
+	"removeComments": true,
+	"preserveConstEnums": true,
+	"sourceMap": true,
+	"target": "es5",
+	"lib": [
+	    "es2016",
+	    "dom"
+	]
+    },
+    "files": [
+	"rxjs_experiments.ts",
+    ]
+}
